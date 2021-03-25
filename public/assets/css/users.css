@@ -1,0 +1,40 @@
+.table-responsive{
+    border-top: 1px solid #DDD;
+}
+.table-responsive a{
+    color:#FFF !important;
+}
+.table-responsive a i{
+    color:#FFF !important;
+}
+.update-user , .create-user{
+    background-image: -moz-linear-gradient(100deg, rgba(131,40,221,1) 0%, rgba(81,18,185,1) 100%);
+    background-image: -webkit-linear-gradient(100deg, rgba(131,40,221,1) 0%, rgba(81,18,185,1) 100%);
+    background-image: linear-gradient(100deg, rgba(131,40,221,1) 0%, rgba(81,18,185,1) 100%);
+    color: #FFF;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px 15px;
+    display: inline-block;
+    height: 34px;
+    line-height: 14px;
+    border: 0;
+    margin-top: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.create-user{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.create-user:hover ,.create-user:focus{
+    color:#FFF;
+}
+.table-responsive .edit{
+    float:left; margin-right:5px
+}
